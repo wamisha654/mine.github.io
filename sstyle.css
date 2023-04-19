@@ -1,0 +1,56 @@
+
+
+body
+{
+	margin: 0px;
+	background-image: url("photo_2022-08-12_22-36-32.jpg");
+	background-size: cover;
+}
+h1
+{
+	
+	border-bottom: 1px solid pink;
+	width: 350px;
+	border-right: 1px solid pink;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+    color: hotpink;
+}	
+p
+{
+	font-family: 'Titillium Web', sans-serif;
+	color: hotpink;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 110%;
+}
+img
+{
+	width: 400px;
+	height: 450px;
+	margin: 1px;
+	transition: all 1s;
+	padding-top: 30px;
+}
+img:hover
+{
+	transform: scale(1.1);
+}
+.cont
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+span
+{
+	font-size: 3em;
+}
+.card
+{
+	width: 18rem;
+	display: flex;
+	justify-content: flex-start;
+}
